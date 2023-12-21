@@ -30,7 +30,7 @@ function UserTicket() {
                             Show:
                         </div>
                         <select className='bg-stone-400 py-1 px-2 ' name="" id="entries">
-                            <option value="10" selected="selected">10</option>
+                            <option value="10" >10</option>
                         </select>
                         <div className="justify-center text-black text-center text-xl leading-5 tracking-normal self-center my-auto">
                             Entries

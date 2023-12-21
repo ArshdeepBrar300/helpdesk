@@ -10,7 +10,7 @@ function UserTicketWidget({ TicketNo, Subject, Status, Support, Date, Rate }, in
     const navigate = useNavigate();
     console.log(ind);
     return (
-        <div>
+        <div key={TicketNo}>
             <div className={`${ind % 2 == 0 ? 'bg-stone-300' : 'bg-stone-400'} bg-opacity-40 self-stretch flex px-4 items-start justify-evenly py-2.5 max-md:max-w-full max-md:flex-wrap max-md:px-5`}>
                 <button className="justify-center  text-blue-700 text-center text-md  underline  my-auto" onClick={handleOpen}>
                     {TicketNo}
@@ -33,11 +33,11 @@ function UserTicketWidget({ TicketNo, Subject, Status, Support, Date, Rate }, in
 
 
                 <div className='w-2/7 flex justify-evenly'>
-                    <Star />
-                    <Star />
-                    <Star />
-                    <Star />
-                    <Star />
+                    <Star key='1' />
+                    <Star key='2' />
+                    <Star key='3' />
+                    <Star key='4' />
+                    <Star key='5' />
 
 
 
@@ -46,7 +46,8 @@ function UserTicketWidget({ TicketNo, Subject, Status, Support, Date, Rate }, in
 
 
 
-            </div></div>
+            </div>
+        </div>
     )
 }
 
