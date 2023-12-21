@@ -10,7 +10,7 @@ function UserTicket() {
                 <div className="text-black text-center text-3xl ">
                     List of Ticket
                 </div>
-                <div className="self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:mt-10 max-md:px-5">
+                <div className="self-stretch flex flex-col mt-4 px-16 max-md:max-w-full max-md:mt-10 max-md:px-0">
                     <div className="border relative shadow-md bg-stone-300 flex max-w-full items-center  justify-between  rounded-xl  border-opacity-0 self-start">
                         <Input className="justify-center bg-stone-300 bg-opacity-60  flex w-[300px] max-w-full items-center border-none   rounded-tl-xl rounded-bl-xl self-start .pl text-black placeholder-gray-700 text-xl  my-auto"
                             placeholder='Find ticket'
@@ -36,23 +36,23 @@ function UserTicket() {
                             Entries
                         </div>
                     </div>
-                    <div className="flex w-full max-w-full  justify-start mt-8  pl-2 max-md:flex-wrap max-md:justify-center">
-                        <div className="justify-center w-min  text-black text-center text-xl  whitespace-nowrap self-start">
+                    <div className="flex w-full max-w-full  justify-start mt-8  pl-2 max-md:px-0 max-md:flex-wrap max-md:overflow-scroll max-md:justify-normal ">
+                        <div className="justify-center w-min  text-black text-center text-xl max-md:text-base  whitespace-nowrap max-md:whitespace-normal self-start">
                             Ticket No.
                         </div>
-                        <div className="justify-center w-1/6  text-black text-center text-xl  self-stretch">
+                        <div className="justify-center w-1/6  text-black text-center text-xl max-md:text-base  self-stretch">
                             Subject
                         </div>
-                        <div className="justify-center w-1/6  text-black text-center text-xl  self-start">
+                        <div className="justify-center w-1/6  text-black text-center text-xl max-md:text-base  self-start">
                             Status
                         </div>
-                        <div className="justify-center w-1/6 ml-4  text-black text-center text-xl ">
+                        <div className="justify-center w-1/6 ml-4 max-md:ml-0 text-black text-center max-md:text-base  text-xl ">
                             Support by
                         </div>
-                        <div className="justify-center w-1/6  text-black text-center text-xl self-start">
+                        <div className="justify-center w-1/6  text-black text-center text-xl max-md:text-base  self-start">
                             Date
                         </div>
-                        <div className="justify-center w-1/6  text-black text-center text-xl  self-start ">
+                        <div className="justify-center w-1/6  text-black text-center text-xl max-md:text-base  self-start ">
                             Rate
                         </div>
                     </div>

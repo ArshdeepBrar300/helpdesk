@@ -92,13 +92,16 @@ function UserNewTicket() {
                                         Description:
 
                                     </div>
-                                    <div className='flex-col flex items-end'>
+                                    <div className='flex-col flex '>
                                         <Input className="border  shadow-sm pb-32 bg-stone-300 relative bg-opacity-60 rounded-xl mt-2 border-opacity-0  " />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba289fd9a9a1406c5b35aed1c05ada25da374fb3002993fd321b26bb7a0148f8?"
-                                            className="absolute w-10 object-contain object-center mt-32 mr-2 overflow-hidden max-md:mt-10"
-                                        />
+                                        <div className=' flex items-end justify-end'>
+                                            <img
+                                                loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba289fd9a9a1406c5b35aed1c05ada25da374fb3002993fd321b26bb7a0148f8?"
+                                                className="absolute w-10 object-contain object-center mt-28 mr-2 mb-2 overflow-hidden max-md:mt-10"
+                                            />
+                                        </div>
+
 
                                     </div>
 
@@ -112,17 +115,17 @@ function UserNewTicket() {
 
 
                         </div>
-                        <div className="self-center w-full max-w-[980px] max-md:max-w-full">
-                            <div className=" flex justify-between mb-8 max-md:flex-col max-md:items-stretch max-md:gap-0">
+                        <div className="self-center w-full max-w-full max-md:max-w-full">
+                            <div className=" flex justify-between mb-8 max-md:flex-col max-md:items-stretch max-md:gap-0 max-md:">
                                 <div className=" h-4 w-1/3 mt-4 object-contain max-md:w-full max-md:ml-0">
                                     <img
                                         src={Captcha}
 
-                                        className=" object-contain object-center  overflow-hidden  w-full max-md:max-w-full max-md:mt-10"
+                                        className=" object-contain object-center  overflow-hidden  w-full max-md:max-w-full max-md:mt-1"
                                     />
                                 </div>
-                                <div className="flex flex-col justify-end ml-5 mt-8  w-1/5 max-md:w-full max-md:ml-0">
-                                    <Button type='submit' className="text-black text-center  text-2xl whitespace-nowrap bg-teal-300 items-center   px-6 rounded-xl max-md:mt-10 max-md:px-5">Submit</Button>
+                                <div className="flex flex-col justify-end ml-5 mt-8  w-1/5 max-md:w-full max-md:ml-0 ">
+                                    <Button type='submit' className="text-black text-center  text-2xl whitespace-nowrap bg-teal-300 items-center   px-6 rounded-xl max-md:mt-16 max-md:px-5">Submit</Button>
 
 
                                 </div>

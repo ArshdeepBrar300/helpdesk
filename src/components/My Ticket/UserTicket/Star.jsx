@@ -2,7 +2,7 @@ import React from 'react'
 
 function Star() {
     return (
-        <div className="flex-col fill-black fill-opacity-20 stroke-[1px] stroke-black stroke-opacity-0 mix-blend-darken overflow-hidden self-center relative flex aspect-[0.8461538461538461] w-[22px] justify-center items-center my-auto">
+        <div className="flex-col fill-black fill-opacity-20 stroke-[1px] stroke-black stroke-opacity-0 mix-blend-darken overflow-hidden self-center relative flex aspect-[0.8461538461538461] w-[22px] max-md:w-[10px] justify-center items-center my-auto">
             <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd9b442926050357811b1847e18052ea054610da6a9544e78ac24ac6222c6f55?"
