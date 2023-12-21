@@ -1,4 +1,4 @@
-import SignIn from './signin.jsx'
+import SignIn from './SignIn.jsx'
 import AuthLayout from './AuthLayout.jsx'
 import ForgetPassword from './forgetPassword.jsx'
 import Dashboard from './dashboard/Dashboard.jsx'
