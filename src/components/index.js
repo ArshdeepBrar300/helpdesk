@@ -1,6 +1,6 @@
 import SignIn from './SignIn.jsx'
 import AuthLayout from './AuthLayout.jsx'
-import ForgetPassword from './forgetPassword.jsx'
+import ForgetPassword from './ForgetPassword.jsx'
 import Dashboard from './dashboard/Dashboard.jsx'
 import Home from './Home.jsx'
 import authService from '../appwrite/auth.js'
