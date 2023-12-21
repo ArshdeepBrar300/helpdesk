@@ -20,7 +20,7 @@ function UserTicketWidget({ TicketNo, Subject, Status, Support, Date, Rate }, in
                 <div className="justify-center w-1/6 max-md:w-16 flex-col text-black text-opacity-90 text-center max-md:text-xs text-base  ">
                     {Subject}
                 </div>
-                <div className={`justify-center w-1/6 max-md:w-16 h-min text-black text-center max-md:text-xs  text-md py-0.5  ${Status == 'In Progress' ? 'bg-green-400' : Status == 'On hold' ? 'bg-sky-900 text-white' : 'bg-black text-white'}  items-stretch px-3.5 rounded-xl self-start`}>
+                <div className={`justify-center w-1/6 max-md:w-16 max-md:mt-2 h-min text-black text-center max-md:text-xs  text-md py-0.5  ${Status == 'In Progress' ? 'bg-green-400' : Status == 'On hold' ? 'bg-sky-900 text-white' : 'bg-black text-white'}  items-stretch px-3.5 rounded-xl self-start`}>
                     {Status}
                 </div>
                 <div className="justify-center w-1/6 text-black text-opacity-90 text-center text-md max-md:text-xs  self-start">

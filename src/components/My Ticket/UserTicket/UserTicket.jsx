@@ -62,32 +62,32 @@ function UserTicket() {
 
 
                     <div className="self-stretch flex w-full  items-stretch justify-between gap-5 mt-4 max-md:max-w-full max-md:flex-wrap">
-                        <div className="justify-center text-black  text-xl leading-5 shrink basis-auto">
+                        <div className="justify-center text-black  text-xl leading-5 shrink basis-auto max-md:text-base">
                             Showing 1 to 5 of 5 entries
                         </div>
                         <div className="flex items-stretch gap-0.5 self-start max-md:justify-center">
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/06caef9fd7cadb13880ca344d23575a8ea723823d9b4d1d7efaa90138ab0982e?"
-                                className="aspect-[0.80] object-contain object-center w-[15px] overflow-hidden shrink-0 max-w-full"
+                                className="aspect-[0.80] object-contain object-center w-[15px] max-md:w-[8px] overflow-hidden shrink-0 max-w-full"
                             />
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c61266e67fa9d743f4da5b7fc13792f834e26b69a945e9cc0866e9c0c33b0f4?"
-                                className="aspect-[0.40] object-contain object-center w-2 fill-black fill-opacity-90 overflow-hidden shrink-0 max-w-full self-start"
+                                className="aspect-[0.40] object-contain object-center w-2 max-md:w-[5px] max-md:mt-2   fill-black fill-opacity-90 overflow-hidden shrink-0 max-w-full self-start"
                             />
-                            <div className="justify-center text-black text-opacity-90 text-center text-2xl leading-5 tracking-normal  self-start">
+                            <div className="justify-center text-black text-opacity-90 text-center text-2xl max-md:text-lg leading-5 tracking-normal  self-start">
                                 1
                             </div>
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf6af2df3cc65c2b5c4a1f47c7a0b5ccddb7f9f594c77c9e10bbae36a74d2f84?"
-                                className="aspect-[0.41] object-contain object-center w-[7px] fill-black fill-opacity-90 overflow-hidden shrink-0 max-w-full self-start"
+                                className="aspect-[0.41] object-contain object-center w-[7px] max-md:w-[5px] max-md:mt-2     fill-black fill-opacity-90 overflow-hidden shrink-0 max-w-full self-start"
                             />
                             <img
                                 loading="lazy"
                                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/d1d108ca8f230688496a39e03335577e82b8cbfb6d31c4283c56646405000fc7?"
-                                className="aspect-[0.83] object-contain object-center w-[15px] overflow-hidden shrink-0 max-w-full"
+                                className="aspect-[0.83] object-contain object-center w-[15px] max-md:w-[8px]   overflow-hidden shrink-0 max-w-full"
                             />
                         </div>
                     </div>
